@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App .container {
+  margin-top: 5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > div[class*='col-'] {
+ display: flex;
+}
+
+.card {
+  width: 100%;
+  cursor: pointer
+}
+
+.card:hover{
+  border: 1px solid rgb(195, 195, 195);
+}
+
+mark {
+  padding: 0;
+  background-color: #ffd703;
+}
+
+.Navbar-logo {
+  height: 3rem;
+}
+.noResults{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.navbar-brand.col-1 {
+ cursor: pointer;
+}
+
+
